@@ -257,6 +257,9 @@ nav{
     transition: 0.4s;
     border: 1px solid rgba(255,255,255,0.15);
 }
+.skills-items .skill-item span,h3,p{
+    padding: 10px;
+}
 
 .skill-item:hover{
     transform: translateY(-10px);
@@ -309,6 +312,14 @@ nav{
     text-align: center;
     padding: 50px 20px;
     background: rgba(255,255,255,0.08);
+}
+.main-footer .social-links{
+    padding: 15px;
+}
+.main-footer .social-links a{
+    margin:0  10px;
+    text-decoration: none;
+    color: #38bdf8;
 }
 
 /* ANIMATION */
